@@ -8,24 +8,17 @@ export default function Section() {
 
   return (
     <div className='max-w-7xl mx-auto mt-24 px-4 sm:px-6 lg:px-8'>
-      
-      {/* Sarlavha */}
       <h2 className='mb-8 sm:mb-10 font-semibold text-3xl sm:text-4xl lg:text-5xl leading-[124%] tracking-[-0.04em]'>
         Afzallik <br />
         tomonlari
       </h2>
 
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
-
-        {/* Rasm */}
         <div className='w-full flex justify-center lg:justify-start'>
           <Image src={'/sec6.png'} width={535} height={610} alt='Afzalliklar' className='w-full max-w-[535px] h-auto object-cover' />
         </div>
-
-        {/* Features */}
         <div className='flex flex-col gap-8 sm:gap-12'>
           
-          {/* Feature 1 */}
           <div className='flex flex-col sm:flex-row gap-4 sm:gap-8 items-start'>
             <svg width="48" height="56" viewBox="0 0 48 56" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M45.874 15.9932C44.1278 30.4272 36.3962 43.489 24.5342 51.9619L23.6064 52.624L22.627 51.9248C10.8476 43.5109 3.3571 30.3767 2.08594 15.9961L23.623 2.35547L45.874 15.9932Z" stroke="black" strokeWidth="4"/>
@@ -36,8 +29,6 @@ export default function Section() {
               <p className='text-sm sm:text-base'>Birgalikda hisob qaydnomasi bilan loyihani boshqarish dasturi yordamida xavfsiz, qulay va shaffof bo`ling.</p>
             </span>
           </div>
-
-          {/* Feature 2 */}
           <div className='flex flex-col sm:flex-row gap-4 sm:gap-8 items-start'>
             <svg width="39" height="48" viewBox="0 0 39 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M37 2V46H2V2H37Z" stroke="black" strokeWidth="4"/>
@@ -48,8 +39,6 @@ export default function Section() {
               <p className='text-sm sm:text-base'>Yashirin xarajatlar yo`q. Siz olgan taklifning qiymati siz to`lagan qiymatdir.</p>
             </span>
           </div>
-
-          {/* Feature 3 */}
           <div className='flex flex-col sm:flex-row gap-4 sm:gap-8 items-start'>
             <svg width="40" height="53" viewBox="0 0 40 53" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M38 17.9385V51H2V17.9102L19.5322 2.62402L38 17.9385Z" stroke="black" strokeWidth="4"/>
@@ -60,18 +49,14 @@ export default function Section() {
               <p className='text-sm sm:text-base'>Yashirin xarajatlar yo`q. Siz olgan taklifning qiymati siz to`lagan qiymatdir.</p>
             </span>
           </div>
-
-          {/* Button */}
           <button 
             onClick={() => setModal(true)} 
             className="hidden md:inline-block bg-[#FD665E] text-white text-sm sm:text-base w-full sm:w-[190px] h-[56px] mt-4 sm:mt-8 rounded-[4px] hover:bg-[#e05550] transition"
           >
             Bepul konsultatsiya
           </button>
-
         </div>
       </div>
-
       {modal && <Modal onClose={() => setModal(false)} />}
     </div>
   )
