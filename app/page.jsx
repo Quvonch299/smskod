@@ -1,4 +1,5 @@
 import End from '@/components/end'
+import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Next from '@/components/Next'
 import Section from '@/components/section'
@@ -15,6 +16,7 @@ export default function page() {
       <Section2/>
       <Section3/>
       <End/>
+      <Footer/>
     </div>
   )
 }

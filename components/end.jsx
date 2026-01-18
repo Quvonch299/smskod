@@ -16,15 +16,12 @@ export default function End() {
   return (
     <div className='max-w-7xl mx-auto mt-[112px] px-4 overflow-hidden'>
       <h2 className='text-[48px] font-black mb-8'>Biz hamkorlar</h2>
-
-      {/* Marquee container */}
       <div
         className='flex gap-8 items-center whitespace-nowrap animate-marquee'
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
         style={{ animationPlayState: isPaused ? 'paused' : 'running' }}
       >
-        {/* Logolarni ikki marta takrorlash */}
         {[...logos, ...logos].map((logo, idx) => (
           <div key={idx} className='flex-shrink-0'>
             <Image
@@ -37,8 +34,6 @@ export default function End() {
           </div>
         ))}
       </div>
-
-      {/* CSS animation */}
       <style jsx>{`
         .animate-marquee {
           display: flex;

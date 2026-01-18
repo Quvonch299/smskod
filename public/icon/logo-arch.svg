@@ -10,8 +10,8 @@
 <path d="M54.6679 22.6995C54.6679 25.9724 57.0866 28 60.1536 28C62.068 28 63.6324 27.3104 64.3837 26.1783L64.3734 25.674C63.8588 26.1989 62.9943 26.5797 61.9857 26.5797C59.9066 26.5797 58.3731 25.0667 58.1055 22.3908H64.5175C64.5381 22.2158 64.569 21.9482 64.569 21.6806C64.569 19.1281 62.8605 17.3682 60.0096 17.3682C56.7984 17.3682 54.6679 19.5707 54.6679 22.6995ZM58.054 21.5056C58.054 19.2928 58.7642 18.0474 60.0096 18.0474C61.1005 18.0474 61.5946 19.2208 61.5946 21.0528C61.5946 21.3512 61.5946 21.5674 61.5843 21.7629L58.0643 21.8041C58.054 21.7012 58.054 21.6086 58.054 21.5056Z" fill="#FD665E"/>
 </g>
 <defs>
-<filter id="filter0_d_1_55" x="0" y="0" width="68.569" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter0_d_1_55" x="0" y="0" width="68.569" height="36" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
 <feGaussianBlur stdDeviation="2"/>
